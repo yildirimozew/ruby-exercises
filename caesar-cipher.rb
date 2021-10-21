@@ -23,8 +23,6 @@ def caesar_cipher(str, factor)
     return bytes_adjusted.join
 end
 
-
-
 def up_or_down(str)
   up_or_down = str.map{|num| if num < 65 || num > 122 || (num > 90 && num < 97)
     "s"
